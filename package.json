@@ -1,0 +1,21 @@
+{
+  "name": "frontend-trial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon . & npm run scss", 
+    "scss": "sass --watch src/scss/main.scss public/styles/main.css" 
+},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "govuk-frontend": "^4.2.0",
+    "sass": "^1.54.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
